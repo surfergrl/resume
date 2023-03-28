@@ -158,8 +158,8 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-.social-links a i li:hover {
-    background-color: #e84610;
+.social-links li a i:hover {
+    background: #e84610;
 }
 .footer-details {
     padding: 20px;
