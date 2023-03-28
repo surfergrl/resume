@@ -18,7 +18,10 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
-/* Special paddings, margins, text */
+.bg-colour-three-reasons {
+    color:#fff;
+}
+/* GENERAL - Special paddings, margins, text */
 
 .inline-block {
     display: inline-block;
@@ -41,10 +44,8 @@ h1,h2,h3,h4 {
 header {
     margin: 0;
 }
-
 .heading {
     margin-left: 50px;
-
 }
 
 .logo {
@@ -114,6 +115,22 @@ header {
 #nav {
     margin: 0;
 }
+.row-table {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+.section-column {
+    display: table;
+}
+.section-heading {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    color: #525252;
+}
+
 /* HOVER CSS */
 
 .hvr-sweep-to-bottom:before {
@@ -163,4 +180,13 @@ footer {
 }
 .footer-details {
     padding: 20px;
+}
+/* three reasons */
+.three-reasons-icon {
+    color:#e67e22;
+    font-size: 26px;
+}
+.three-reasons-heading {
+    color:#525252;
+    margin-bottom: 15px;
 }
