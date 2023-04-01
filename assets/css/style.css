@@ -21,6 +21,9 @@
 .bg-colour-three-reasons {
     color:#fff;
 }
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
 /* GENERAL - Special paddings, margins, text */
 
 .inline-block {
