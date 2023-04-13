@@ -27,6 +27,9 @@
 .bg-color-work-history {
     background-color: #9b59b6; 
 }
+.bg-color-contact {
+    background-color: #fff; 
+}
 /* GENERAL - Special paddings, margins, text */
 
 .inline-block {
@@ -215,7 +218,7 @@ footer {
     margin: 0;
 }
 
-.personal-info-item .key, {
+.personal-info-item .key {
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -285,4 +288,31 @@ footer {
 }
 .history-items {
     margin-bottom: 30px;
+}
+/* WORK HISTORY */
+.contact-heading {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+/* MEDIA QUERIES */
+@media(min-width: 992px) {
+.center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
 }
